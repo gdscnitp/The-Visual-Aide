@@ -1,0 +1,38 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel= "stylesheet" href= "{{ url_for('static',filename='index.css') }}">
+  </head>
+  <body>
+    <h1>Video</h1>
+    <div class="frame">
+        <img class="cameraimg" src="{{ url_for('video') }}" width="100%" height="75%"/>
+    </div>  
+    <div >
+      <button onclick="window.location.href='{{ url_for( 'videoff') }}';">
+        Turn off camera
+      </button>
+      <button onclick="window.location.href='{{ url_for( 'videon') }}';">
+        Turn on camera
+      </button>
+       
+      <button>
+        Start captioning
+      </button>
+      <button>
+        Speak for me
+      </button>
+      <button >
+        Reset
+      </button>
+
+    </div>
+    
+  </body>
+</html>
+ 
