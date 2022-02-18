@@ -1,0 +1,16 @@
+
+===============================================================================================================================
+model_plot() to be work
+
+you have to do below step:
+
+1.  pip install pydot
+    pip install pydotplus
+    pip install graphviz
+    
+2.  download Graphviz,install and add to the system path (https://graphviz.org/download/)
+
+3.  Restart your kernal.
+
+
+==============================================================================================================================
